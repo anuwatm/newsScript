@@ -1,0 +1,68 @@
+.status_1{
+	color:red;
+}
+.status_2 {
+    color:blue;
+}
+.status_3  {
+    color:darkgreen;
+}
+.status_4 {
+    color:darkorange;
+}
+.status_5 {
+    color:lime;
+}
+
+.keyword{
+	font-weight:bold;
+	text-decoration:underline;
+	color:red;
+}
+table.three{
+width:99%;
+border:0; 
+} 
+table.three th { font-weight:bold; 
+border-bottom:1px solid #CCC; 
+border-top:1px solid #CCC; 
+background-color:#F2F9FF ;
+color:#0000CC;
+}
+table.three td { padding:5px; 
+border-bottom:1px dotted #CCC; 
+}
+
+span.pagination {
+	padding: 1px;
+	margin: 1px;
+}
+span.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 1px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+span.pagination a:hover, span.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+span.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+}
+span.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+}

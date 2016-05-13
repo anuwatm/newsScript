@@ -1,0 +1,52 @@
+body,table,td,th {
+	font-family: AngsanaUPC, "Angsana New";
+	font-size: 24pt;
+}
+.PrintPreviewBody
+{
+	font-family: AngsanaUPC, "Angsana New";
+	font-size: 24pt;
+}
+.Script
+{
+	font-family: AngsanaUPC, "Angsana New";
+	font-size: 20pt;
+}
+
+#header span {
+	font-family:AngsanaUPC;
+	font-size:18pt;
+	font-weight:normal;
+}
+
+#GridView {
+	color:#333333;
+	font-family:AngsanaUPC;
+	font-size:22pt;
+	width:700px;
+}
+.command-start {
+    font-family: AngsanaUPC, "Angsana New";
+	font-size: 24pt;
+    font-weight:bold;
+    width:280px;
+}
+td{
+    vertical-align: text-top;
+}
+.space{
+    width:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

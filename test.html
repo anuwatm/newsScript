@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+    <link href="css/contextmenu.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/contextMenu.min.js"></script>
+	<script type="text/javascript" src="js/writer.js"></script>
+</head>
+<body>
+    <h1>TinyMCE Getting Started Guide</h1>
+    <form method="post">
+        <textarea id="txtScript" ></textarea>
+		
+    <div id="mythingy" style="width:100px; height: 100px; margin: 10px; border:2px dashed #666666; padding:6px">
+      right click in this box to show custom context menu 
+    </div>
+	<div id="mythingy2" class="mythingy2" style="width:100px; height: 100px; margin: 10px; border:2px dashed #666666; padding:6px">
+      right click in this box to show custom context menu 
+    </div>
+	<div id="mythingy3" style="width:100px; height: 100px; margin: 10px; border:2px dashed #666666; padding:6px">
+      right click in this box to show custom context menu 
+    </div>
+	<div id="mythingy2" class="mythingy2" style="width:100px; height: 100px; margin: 10px; border:2px dashed #666666; padding:6px">
+      right click in this box to show custom context menu 
+    </div>
+    </form>
+</body>
+<script type="text/javascript">
+$(function() {
+
+//Calling context menu
+ $('.mnufull').contextMenu(mnuFull);
+ $('.mnuPrint').contextMenu(mnuPrint);
+ $('.mnuView').contextMenu(mnuView);
+});
+</script>
+</html>

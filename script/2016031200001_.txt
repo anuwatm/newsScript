@@ -1,0 +1,1 @@
+﻿<p><img src="images/[.png" alt="" />อ่าน<img src="images/].png" alt="" /></p>
